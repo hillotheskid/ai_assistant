@@ -98,6 +98,13 @@ The setup script will:
 -   Install all dependencies from `requirements.txt`
 -   Launch `main.py`
 
+NOTES :
+
+To install voicevox you need `docker` (https://www.docker.com/)
+And run `docker pull voicevox/voicevox_engine:cpu-latest` for CPU
+or `docker pull voicevox/voicevox_engine:nvidia-latest` for GPU in your terminal
+
+
 ------------------------------------------------------------------------
 
 ## 🎤 Usage
@@ -216,24 +223,6 @@ All installed by:
 
 ------------------------------------------------------------------------
 
-## 💡 Future Plans (Optional)
-
--   Async rewrite\
--   Background noise suppression\
--   Cross-platform support\
--   Plugin system for new commands\
--   Custom voice selection
-
-------------------------------------------------------------------------
-
-## 🧾 License
-
-This project is provided as-is.\
-Free to modify and extend for personal use.
-
-------------------------------------------------------------------------
-
-## 🧑‍💻 Credits
+## Credits
 
 Made by **Hillorius**\
-System Runtime Support: **Ciel**
