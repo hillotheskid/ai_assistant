@@ -225,4 +225,4 @@ All installed by:
 
 ## Credits
 
-Made by **Hillorius**\
+Made by **Hillorius**
