@@ -11,7 +11,7 @@ def transcribe_wav(filename):
             audio_data = f.read()
         
         headers = {
-            "Authorization": f"Bearer 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",
+            "Authorization": f"Bearer [YOUR HUGGINGFACE API KEY]",
             "Content-Type": "audio/wav"
         }
         
@@ -43,4 +43,5 @@ def transcribe_wav(filename):
             
     except Exception as e:
         print(Fore.RED + f"[ERROR] Transcription failed: {e}" + Style.RESET_ALL)
+
         return ""
